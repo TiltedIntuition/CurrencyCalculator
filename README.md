@@ -3,26 +3,23 @@
 
 School project
 
-import java.util.*;
-import javax.swing.*;
-import java.awt.*;
-import java.util.Scanner;
-import java.util.Arrays;
+    import java.util.*;
+    import javax.swing.*;
+    import java.awt.*;
+    import java.util.Scanner;
+    import java.util.Arrays;
 
 
-public class parseStack
-{
+    public class parseStack
+    {
     
-    /**
-     * Constructor for objects of class parseStack
-     */
     public parseStack()
     {
         System.out.print('\u000c');
         String CurrencyFormat = "xD xS xP xH";
         System.out.println("Please enter currency in the following format: \""+CurrencyFormat+"\" where x is any integer");
         System.out.println("\nPlease take care to use the correct spacing enter the exact integer plus type of coin\n\n");
-        
+         
         Scanner scan = new Scanner(System.in);
         String currencyIn = scan.nextLine();
         currencyIn = currencyIn.toUpperCase();
@@ -44,4 +41,4 @@ public class parseStack
                     System.out.println(Arrays.toString(values));
         
     }
-}
+    }
