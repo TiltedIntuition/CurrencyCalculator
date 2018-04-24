@@ -1,0 +1,2 @@
+# CurrencyCalculator
+School project
