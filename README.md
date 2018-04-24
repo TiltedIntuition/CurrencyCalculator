@@ -2,17 +2,18 @@
 School project
 
 
-import java.util.*;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.geom.*;
-import java.util.Scanner;
+    import java.util.*;
+    import javax.swing.*;
+    import java.awt.*;
+    import java.awt.geom.*;
+    import java.util.Scanner;
 
-public class main
-{
-    public char selection; 
-    //public int selection = 0;
-    public main()
+    public class main
+    {
+        public char selection; 
+               
+        public main()
+        
         {
         int length = 0;
         System.out.println("Welcome to the Bank of Winterfell");
@@ -382,4 +383,4 @@ public class main
         Scanner itScan1 = new Scanner(System.in);
         String nextIt1 = itScan1.nextLine(); 
     }
-} 
+    } 
